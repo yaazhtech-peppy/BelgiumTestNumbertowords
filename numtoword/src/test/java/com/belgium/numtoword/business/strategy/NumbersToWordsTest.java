@@ -11,8 +11,10 @@ package com.belgium.numtoword.business.strategy;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import com.belgium.numtoword.business.exception.BusinessException;
+@SpringBootTest
 public class NumbersToWordsTest {
 
   @Test
